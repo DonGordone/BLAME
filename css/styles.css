@@ -7,7 +7,7 @@ body {
     justify-content: center;
     font-family: Helvetica;
     font-weight: 15px;
-    background-color: #710022;
+    background-color: #16191A;
     color: #fff;
 }
 
@@ -15,7 +15,7 @@ body {
     justify-content: space-around;
     display: grid;
     grid-template: 1fr / repeat(3, 1fr) ;
-    /* border: 1px red solid; */
+    border-bottom: 1px solid black; 
 }
 
 .logoContainer {
@@ -139,6 +139,8 @@ footer {
             a {
     margin: 10px;
     text-decoration: none;
+    border: none;
+    background: none;
 }
 
 .svgs {
@@ -280,9 +282,26 @@ footer {
     font-size: unset;
     font-family: Helvetica;
   }
-  .frase:nth-of-type(2) {
+  .frase:nth-of-type(3) {
     margin: 0 30px;
     border-bottom: solid 1px black;
 
   }
   
+  .outlineFooter {
+      border-bottom: 1px solid black;
+      margin: 0 30px;
+  }
+
+  .presentationContainer {
+    padding: 1px 0;
+    background: #CDCECF;
+  }
+
+  .presentationImgContainer {
+      margin: 30px;
+  }
+
+  .presentationImgContainer img {
+      width: 100%;
+  }
