@@ -214,6 +214,7 @@ footer {
     border-radius: 10px;
     overflow: hidden;
     background: #f4fbff;
+    box-shadow: 2px 2px 8px 1px #888888;
   }
   
   .event-img {
